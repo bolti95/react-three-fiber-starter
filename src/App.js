@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div id="canvas-scene">
-      <Canvas>
+       <Canvas camera={{ position: [0, 1, 10], fov: 30 }} >
             {/* nothing to wait for whilist loading */}
           <Scene />
 
